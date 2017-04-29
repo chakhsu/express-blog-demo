@@ -10,5 +10,5 @@ router.get('/', checkNotLogin, function (req, res, next) {
 router.post('/', checkNotLogin, function (req, res, next) {
   res.send(req.flash());
 });
-ß
+
 module.exports = router;
