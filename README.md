@@ -29,7 +29,4 @@ npm i config-lite connect-flash connect-mongo ejs express express-formidable exp
 * `express-winston`: 基于 winston 的用于 express 的日志中间件
 
 启用 `npm start`
-
-1. http://localhost:8081/posts
-2. http://localhost:8081/signout
-3. http://localhost:8081/signup
+打开浏览器访问 http://localhost:8081/
