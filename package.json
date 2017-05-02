@@ -4,6 +4,7 @@
   "description": "a blog demo",
   "main": "index.js",
   "scripts": {
+    "test": "node --harmony ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha",
     "start": "supervisor --harmony index"
   },
   "author": "Chakhsu Lau",
@@ -23,5 +24,10 @@
     "objectid-to-timestamp": "^1.3.0",
     "sha1": "^1.1.1",
     "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "istanbul": "0.4.5",
+    "mocha": "3.1.2",
+    "supertest": "2.0.1"
   }
 }

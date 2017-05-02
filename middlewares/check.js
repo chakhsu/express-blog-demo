@@ -10,6 +10,7 @@ module.exports = {
   checkNotLogin: function(){
     if(req.session.user){
       req.flash('error','已登陆');
+      //返回之前的页面
       return res.redirect('back');
     }
     next();
