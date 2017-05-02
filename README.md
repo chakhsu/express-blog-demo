@@ -11,6 +11,49 @@
 1. index.js: 程序主文件
 1. package.json: 存储项目名、描述、作者、依赖等等信息
 
+```md
+.
+├── README.md
+├── config
+│   └── default.js
+├── index.js
+├── lib
+│   └── mongo.js
+├── logs
+│   └── success.log
+├── middlewares
+│   └── check.js
+├── models
+│   ├── comments.js
+│   ├── posts.js
+│   └── users.js
+├── package.json
+├── public
+│   ├── css
+│   └── img
+├── routes
+│   ├── index.js
+│   ├── posts.js
+│   ├── signin.js
+│   ├── signout.js
+│   └── signup.js
+├── test
+│   ├── avatar.jpeg
+│   └── signup.js
+└── views
+    ├── 404.ejs
+    ├── components
+    ├── create.ejs
+    ├── edit.ejs
+    ├── error.ejs
+    ├── footer.ejs
+    ├── header.ejs
+    ├── post.ejs
+    ├── posts.ejs
+    ├── signin.ejs
+    └── signup.ejs
+```
+
 对应模块的用处:
 
 * `express`: web 框架
