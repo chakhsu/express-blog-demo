@@ -1,15 +1,15 @@
 对应文件及文件夹的用处:
 
+1. config: 存放数据库配置文件
+1. lib: 存放函数文件
+1. logs: 存放日志文件
 1. models: 存放操作数据库的文件
-2. public: 存放静态文件，如样式、图片等
-3. routes: 存放路由文件
-4. views: 存放模板文件
-5. index.js: 程序主文件
-6. package.json: 存储项目名、描述、作者、依赖等等信息
-
-```
-npm i config-lite connect-flash connect-mongo ejs express express-formidable express-session marked moment mongolass objectid-to-timestamp sha1 winston express-winston --save
-```
+1. public: 存放静态文件，如样式、图片等
+1. routes: 存放路由文件
+1. views: 存放模板文件
+1. test: 存放测试文件
+1. index.js: 程序主文件
+1. package.json: 存储项目名、描述、作者、依赖等等信息
 
 对应模块的用处:
 
